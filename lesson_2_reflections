@@ -1,8 +1,15 @@
 1)What happens when you initialize a repository? Why do you need to do it?
 A directory name .git will be created. To create a git repository.
 
-2)How is the staging area different from working directory and repository? What value do you 
-think it offers?
-It stores file included in the working directory and not yet to be submiited to repository.
-It makes more easier to operator files to be commited, like add and remove files before we finally commited.
+2)How is the staging area different from working directory and 
+repository? What value do you  think it offers?
 
+It stores file included in the working directory and not yet to be 
+submiited to repository. It makes more easier to operator files to be 
+commited, like add and remove files before we finally commited.
+
+3)How can you use staging area to make sure you have one commit per 
+logical change?
+
+Right before you commit, you can use git diff --staged to see if the 
+change is subjected to a logical change.

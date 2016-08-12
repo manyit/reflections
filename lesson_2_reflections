@@ -13,3 +13,8 @@ logical change?
 
 Right before you commit, you can use git diff --staged to see if the 
 change is subjected to a logical change.
+
+4)What are some situations when branches would be helpful in keeping your 
+history organized?
+It can let you label different type of code. So that you can navigate and 
+manage the history easily.

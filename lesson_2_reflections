@@ -22,3 +22,8 @@ manage the history easily.
 5)How do the diagram help you visualize the branch structure?
 Because it lists both the same and different part of branches in the 
 same place.
+
+6)What is the result of merging two branches together? Why do we 
+represent it in the diagram the way we do?
+The commit enlisted in the master branch ordered in the time stamp. So 
+that we can see the other line of commits were merged into.

@@ -6,3 +6,16 @@
 		collaborate with other on a project, or have different version over different devices, so it 
 		could benefit from always pulling changes.
 
+3) Describe the difference between forks, clones and branches. When would you use one instead of 
+another?
+		Forks copy others' repository in Github to your repository in Github, and this is a 
+		feature introduced in Github only. 
+		Clones copy repository from either local to local or Github to Github. 
+		Branches create commits that can't not be traced or affected by other lines of commits.
+
+		When I try to look into other repo in Github, I will use forks.
+		When I want to download the repo in Github to my computer, I will use clones.
+		When I want to try some experiment, I will create branches.
+
+
+

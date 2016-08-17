@@ -30,3 +30,21 @@ that we can see the other line of commits were merged into.
 
 7)What are the pros and cons of Git's automatically merging vs. always doing merge manually?
 Git's merging help you to prevent tedious eyeball comparing but doing merge manually gives you a detailed picture of code.
+
+Commands: 
+
+git init, to initialize a directory as git repository.
+git add, to add a file to staging area, have it prepared to submit to a commit.
+git status, check the status in staging area and working directory, including untracked file and file to be committed.
+git log - -oneline - -graph - -all, display all the commit in oneline format and hierarchy.
+git checkout master, to get back to the latest version.
+git reflog, check the recent committed history.
+git show, compare the commit with its parent.
+git branch -d ‘branch name’, delete the label of the branch.
+git log -n 1, display only the current 1 commit.
+git remote, to check the remotes on github.
+git remote add REMOTENAME https/ssh-link, to add a new remote.
+git remote remove REMOTENAME, to remove remote.
+git push REMOTENAME LOCALREPO, to push a local repository onto remote.
+git reset - -hard, undo all changes before committing, no roll back, be careful!
+git merge branch1 branch2, branch2 get merged into branch1

@@ -27,3 +27,6 @@ same place.
 represent it in the diagram the way we do?
 The commit enlisted in the master branch ordered in the time stamp. So 
 that we can see the other line of commits were merged into.
+
+7)What are the pros and cons of Git's automatically merging vs. always doing merge manually?
+Git's merging help you to prevent tedious eyeball comparing but doing merge manually gives you a detailed picture of code.

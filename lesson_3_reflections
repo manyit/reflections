@@ -17,5 +17,9 @@ another?
 		When I want to download the repo in Github to my computer, I will use clones.
 		When I want to try some experiment, I will create branches.
 
+4) What is the benefit of having a copy of last known state of the remote stored locally?
+		So that I can work on with the most updated version when in a collaboratino with others.
+
+		
 
 
